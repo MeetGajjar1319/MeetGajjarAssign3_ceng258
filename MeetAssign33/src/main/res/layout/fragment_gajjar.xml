@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Meet Gajjar N01391319  section C -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context=".GajjarFragment"
+    android:orientation="horizontal"
+    tools:ignore="ExtraText">
+
+    <Button
+        android:id="@+id/meettv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img1"
+        android:layout_marginBottom="322dp"
+
+        android:text="@string/permission"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/p1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/meet_radiobtn"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <RadioButton
+                android:id="@+id/speed1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_1x_speed" />
+
+            <RadioButton
+                android:id="@+id/speed3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_3x_speed" />
+
+            <RadioButton
+                android:id="@+id/speed2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_2x_speed"
+                />
+
+            <RadioButton
+                android:id="@+id/speed4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_4x_speed"
+                />
+
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="250dp"
+        android:text="@string/start"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/stopBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="250dp"
+        android:text="@string/stop"
+        android:textColor="@color/black" />
+
+
+</RelativeLayout>
