@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/meet_tab1"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="@string/tab1_nav_menu" />
+    <item
+        android:id="@+id/meet_tab2"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="@string/tab2_nav_menu" />
+    <item
+        android:id="@+id/meet_tab3"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="@string/tab3_nav_menu" />
+</menu>
