@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Meet Gajjar N01391319  section C -->
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    tools:context=".N01391319Fragment"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/meettv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-55dp"
+        android:layout_marginTop="-118dp"
+        android:rotation="-45"
+        android:textColor="@color/darkgray"
+        android:textSize="33dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Gajjar"
+        android:textColor="@color/darkgray"
+        android:textSize="33dp"
+        android:layout_marginTop="-88dp"
+        android:layout_marginRight="-53dp"
+        android:gravity="right"
+        android:rotation="45"
+        android:layout_alignParentRight="true"
+        tools:ignore="MissingConstraints"
+        />
+    <ImageView
+        android:id="@+id/earth"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:src="@drawable/earth"
+        android:layout_marginTop="200dp"
+        />
+
+    <ImageView
+        android:id="@+id/moon"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:src="@drawable/moon"
+        android:layout_marginLeft="-450dp"
+        android:layout_marginTop="280dp"
+        />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="52dp"
+        android:layout_marginEnd="227dp"
+        android:layout_marginBottom="32dp"
+        android:padding="5dp"
+        android:text="@string/start_btn"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/stopBtn"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="234dp"
+        android:layout_marginRight="52dp"
+
+        android:layout_marginBottom="32dp"
+        android:padding="5dp"
+        android:text="@string/stop_btn"
+        android:textStyle="italic"
+        tools:ignore="MissingConstraints" />
+
+
+</RelativeLayout>
