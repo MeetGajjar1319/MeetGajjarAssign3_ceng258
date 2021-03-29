@@ -1,3 +1,56 @@
+<!-- Meet Gajjar N01391319  section C -->
 <resources>
-    <string name="app_name">MeetAssign3</string>
+    <color name="darkgray">#696969</color>
+    <color name="black">#FF000000</color>
+    <color name="blue">#00CED1</color>
+    <color name="yellow">#FFFFE0</color>
+    <string name="app_name">Meet Gajjar N01391319</string>
+
+    <string name="hello_blank_fragment">Meet Gajjar N01391319</string>
+    <string name="tab1_nav_menu">Tab1</string>
+    <string name="tab2_nav_menu">Tab2</string>
+    <string name="tab3_nav_menu">Tab3</string>
+    <string name="builder_exit">Do you want to exit ?</string>
+    <string name="yes1">Yes</string>
+    <string name="no1">No</string>
+
+    <string-array name="colorsArr">
+        <item>GREEN</item>
+        <item>Red</item>
+        <item>DARK GRAY</item>
+    </string-array>
+
+    <string-array name="widthArr">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="permission"> permisssion</string>
+    <string name="request">Request</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="_1x_speed">1X Speed</string>
+    <string name="_2x_speed">2X Speed</string>
+    <string name="_3x_speed">3X Speed</string>
+    <string name="_4x_speed">4X Speed</string>
+    <string name="start22">Start</string>
+    <string name="stop22">Stop</string>
+    <string name="zoom">Zoom</string>
+    <string name="spin">Spin</string>
+    <string name="move">Move</string>
+    <string name="start_btn">Start </string>
+    <string name="stop_btn">Stop </string>
+    <string name="name"> Meet </string>
+    <string name="permissions">Permissions</string>
+    <string name="speed_one">Speed One</string>
+    <string name="speed_two">Speed Two</string>
+    <string name="speed_three">Speed Three</string>
+    <string name="speed_four">Speed Four</string>
+    <string name="start_tab2">Start</string>
+    <string name="stop_tab2">Stop</string>
+    <string name="Gajjar">Gajjar</string>
+    <string name="set_frag1">set</string>
+
+
 </resources>
