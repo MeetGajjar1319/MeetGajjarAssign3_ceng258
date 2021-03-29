@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Meet Gajjar N01391319  section C -->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkgray"
+    tools:context=".MeetFragment">
+
+    <ImageView
+        android:id="@+id/meettv"
+        android:layout_width="match_parent"
+        android:layout_height="352dp"
+        android:src="@drawable/wick"
+        android:layout_marginTop="70dp"
+        />
+
+    <Button
+        android:id="@+id/meet_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="185dp"
+        android:text="@string/set_frag1" />
+
+    <meet.gajjar.n01391319.CanvasView
+        android:id="@+id/meet_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/meet_maintxt"
+        android:text="@string/hello_blank_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:textColor="#0000FF"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/meet_color_Spin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+
+        <Spinner
+            android:id="@+id/widthSpin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reset_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-101dp"
+        android:layout_marginEnd="252dp"
+        android:layout_marginBottom="187dp"
+        android:text="reset" />
+
+
+</RelativeLayout>
